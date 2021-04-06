@@ -1,0 +1,18 @@
+h1 {
+  font-size: 2em;
+  font-family: lucida;
+  color: red;
+}
+
+.titre {
+  font-size: 5em;
+  color: pink;
+  font-style: normal;
+}
+
+.partie {
+  font-family: arial;
+  font-style: oblique;
+}
+
+/*# sourceMappingURL=style.css.map */

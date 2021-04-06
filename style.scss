@@ -1,0 +1,24 @@
+@mixin H1FontVariant1 {
+  font-size: 2em;
+  font-family: lucida;
+  color: red;
+}
+@mixin TitreFontVariant2 {
+  font-size: 5em;
+  color : pink;
+  font-style: normal;
+}
+@mixin PartieFontVariant3 {
+  font-family: arial;
+  font-style: oblique;
+}
+h1{
+  @include H1FontVariant1;
+}
+.titre{
+  @include TitreFontVariant2;
+}
+.partie{
+  @include PartieFontVariant3;
+}
+//nommage des variables et/ou mixins
